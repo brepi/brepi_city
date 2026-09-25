@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="430" viewBox="0 0 520 430" fill="none">
+<defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="#bfc4b4" stroke-width=".5"/></pattern></defs>
+<path fill="#efefe5" stroke="#c8cabc" d="M22 24h476v379H22z"/><path fill="url(#grid)" d="M23 25h474v377H23z"/><path stroke="#c2a28f" opacity=".5" d="M61 25v377"/>
+<g fill="#515749" font-family="monospace" font-size="10"><text x="77" y="54">FIELD NOTES / 001</text><text x="76" y="88" font-family="Georgia,serif" font-size="23" font-style="italic">A little gain. A lot to learn.</text><text x="312" y="133">VDD</text><text x="323" y="197">RD</text><text x="163" y="256">Vin</text><text x="372" y="238">Vout</text><text x="232" y="304">M1</text><text x="82" y="379">COMMON-SOURCE / CONCEPT SKETCH</text></g>
+<g stroke="#4c5547" stroke-width="2" stroke-linejoin="round"><path d="M302 138v20l-7 6 14 8-14 8 14 8-14 8 14 8-7 6v48M302 237h64M302 258h-30v40h30v32M263 259v40M263 278h-63M302 330v10m-15 0h30m-25 5h20m-15 5h10"/><circle cx="302" cy="237" r="3" fill="#4c5547"/><path d="m283 291-9 5 9 4"/></g>
+<path d="M84 169v48h112" stroke="#939b85"/><path d="M88 193c8-35 16-35 24 0s16 35 24 0 16-35 24 0 16 35 24 0" stroke="#b94018" stroke-width="2"/><text x="87" y="237" fill="#686d60" font-family="monospace" font-size="9">small signal in</text>
+<path d="m344 282 12 8-13 9m12-9h-31" stroke="#b94018" stroke-width="1.5"/><text x="358" y="290" fill="#b94018" font-family="Georgia,serif" font-style="italic" font-size="14">invert &amp; amplify</text><path d="m406 303-3 20" stroke="#b94018"/><path d="M366 343c6 28 13 28 19 0s13-28 19 0 13 28 19 0 13-28 19 0" stroke="#b94018" stroke-width="1.5"/>
+</svg>
