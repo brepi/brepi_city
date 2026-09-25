@@ -1,4 +1,4 @@
-// Everything remains readable without JavaScript or motion.
+// Content stays visible without JavaScript or when reduced motion is preferred.
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 if ('IntersectionObserver' in window && !reducedMotion.matches) {
   const observer = new IntersectionObserver((entries) => {
@@ -9,7 +9,7 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
       }
     }
   }, { threshold: 0.06 });
-  document.querySelectorAll('.section-heading, .project, .timeline article, .notes article').forEach((element) => {
+  document.querySelectorAll('.reveal').forEach((element) => {
     element.classList.add('reveal-pending');
     observer.observe(element);
   });
